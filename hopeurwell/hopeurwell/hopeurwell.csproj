@@ -75,6 +75,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\db_hopeurwell.mdf" />
+    <Content Include="App_Data\db_hopeurwell_log.ldf">
+      <DependentUpon>db_hopeurwell.mdf</DependentUpon>
+    </Content>
     <Content Include="INTER_REGI.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
